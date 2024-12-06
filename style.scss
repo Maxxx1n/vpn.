@@ -18,8 +18,7 @@ $font-family_1: 'Rubik';
 }
 
 .body {
-	width: 1800px;
-
+    
     .container {
         padding: 10px 0;
         display: flex;
@@ -547,6 +546,7 @@ $font-family_1: 'Rubik';
             display: flex;
             flex-direction: column;
             gap: 10px;
+            background: white;
 
             .avatar-flex {
                 display: flex;
@@ -673,7 +673,6 @@ $font-family_1: 'Rubik';
 
         .first-shadow {
             display: flex;
-            align-items: center;
             flex-direction: column;
             gap: 10px;
 
@@ -722,7 +721,6 @@ $font-family_1: 'Rubik';
         padding: 50px 150px;
         display: flex;
         justify-content: space-between;
-        align-items: center;
 
         .logo-footer {
             display: flex;

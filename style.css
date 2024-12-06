@@ -8,9 +8,6 @@
   box-sizing: border-box;
 }
 
-.body {
-  width: 1800px;
-}
 .body .container {
   padding: 10px 0;
   display: flex;
@@ -478,6 +475,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  background: white;
 }
 .body .coment .coment-item .avatar-flex {
   display: flex;
@@ -590,7 +588,6 @@
 }
 .body .shadow .first-shadow {
   display: flex;
-  align-items: center;
   flex-direction: column;
   gap: 10px;
 }
@@ -635,7 +632,6 @@
   padding: 50px 150px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .body .footer .logo-footer {
   display: flex;
