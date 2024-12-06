@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 .body {
-    width: 1920px;
+    width: 1800px;
 }
 
 .container {
@@ -70,6 +70,8 @@
 .mini-button:hover {
     color: #F53855;
     text-decoration: underline;
+
+    cursor: pointer;
 }
 
 .sing {
@@ -95,13 +97,16 @@
 }
 
 .sing-up:hover {
-    color: #0B132A;
+    color: #FFFFFF;
     background: #F53855;
     
     padding: 13px 45px;
-    
-    border: 1px #0B132A solid;
+
     border-radius: 50px;
+
+    box-shadow: 10px 10px 5px 0px rgba(245, 56, 56, 0.2);
+
+    cursor: pointer;
 }
 
 .sing-in {
@@ -120,6 +125,8 @@
 .sing-in:hover {
     color: #F53855;
     text-decoration: underline;
+
+    cursor: pointer;
 }
 
 .main {
@@ -216,6 +223,8 @@
     color: #4F5665;
     
     box-shadow: none;
+
+    cursor: pointer;
 }
 
 .grid-container {
@@ -260,6 +269,8 @@
 .grid-item-2:hover {
     color: #F53838;
     text-decoration: underline;
+
+    cursor: pointer;
 }
 
 .grid-item-3 {
@@ -449,6 +460,8 @@
     background: #F53838;
     
     box-shadow: 10px 10px 5px 0px rgba(245, 56, 56, 0.2);
+
+    cursor: pointer;
 }
 
 .card-item:hover {
@@ -607,6 +620,8 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+    cursor: pointer;
 }
 
 .avatar-flex{
@@ -643,6 +658,8 @@
 .avatar-span:hover {
     color: #4F5665;
     text-decoration: underline;
+
+    cursor: pointer;
 }
 
 .avatar-span-2 {
@@ -694,7 +711,6 @@
     background: #e0e0e0;
 }
 
-
 .back-button {
     display: flex;
     gap: 50px;
@@ -731,6 +747,8 @@
     
     background: #F53838;
     color: #FFFFFF;
+
+    cursor: pointer;
 }
 
 .first-shadow {
@@ -787,6 +805,8 @@
     color: #0B132A;
     
     box-shadow: none;
+
+    cursor: pointer;
 }
 .title-shadow {
     font-family: 'Rubik';
@@ -867,6 +887,8 @@
     
     color: #F53838;
     text-decoration: underline;
+
+    cursor: pointer;
 }
 
 .footer-info {
