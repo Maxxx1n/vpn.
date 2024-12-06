@@ -1,0 +1,901 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.body {
+    width: 1920px;
+}
+
+.container {
+    padding: 10px 0;
+    
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.img {
+    width: 35px;
+    height: 36.23px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.text {
+    font-family: 'Rubik';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.7px;
+    text-align: left;
+    
+    color: #0B132A;
+}
+
+.vpn {
+    font-family: 'Rubik';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.7px;
+    text-align: left;
+    
+    color: #0B132A;
+}
+
+.mini {
+    display: flex;
+    gap: 100px
+}
+
+.mini-button {
+    border: none;
+    
+    background: none;
+    
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.96px;
+    text-align: left;
+    
+    color: #4F5665;
+}
+
+.mini-button:hover {
+    color: #F53855;
+    text-decoration: underline;
+}
+
+.sing {
+    display: flex;
+    gap: 30px
+}
+
+.sing-up {
+    padding: 13px 45px;
+    
+    border: 1px #F53855 solid;
+    border-radius: 50px;
+    
+    background: none;
+    
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    text-align: left;
+    
+    color: #F53855;
+}
+
+.sing-up:hover {
+    color: #0B132A;
+    background: #F53855;
+    
+    padding: 13px 45px;
+    
+    border: 1px #0B132A solid;
+    border-radius: 50px;
+}
+
+.sing-in {
+    border: none;
+    background: none;
+    
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    text-align: left;
+    
+    color: #0B132A;
+}
+
+.sing-in:hover {
+    color: #F53855;
+    text-decoration: underline;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    
+    padding: 80px 0;
+}
+
+.main-img {
+    width: 600px;
+    
+    border: 1px #F53855 solid;
+    border-radius: 10px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px
+}
+
+.h1 {
+    font-family: 'Rubik';
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+    
+    color: #0B132A;
+}
+
+.main-vpn {
+    font-family: 'Rubik';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    
+    color: #0B132A;
+}
+
+.main-info {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    
+    color: #4F5665;
+}
+
+.span-vpn {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    
+    color: #4F5665;
+}
+
+.main-button {
+    margin-top: 20px;
+    
+    border: none;
+    border-radius: 10px;
+    
+    background: #F53838;
+    
+    width: 250px;
+    height: 60px;
+    
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    box-shadow: 10px 10px 5px 0px rgba(245, 56, 56, 0.2);
+}
+
+.main-button:hover {
+    border: 1px #F53838 solid;
+    border-radius: 10px;
+    
+    background: #FFFFFF;
+    
+    width: 250px;
+    height: 60px;
+    
+    color: #4F5665;
+    
+    box-shadow: none;
+}
+
+.grid-container {
+    align-items: center;
+    
+    margin: 10px 150px;
+    
+    border-radius: 10px;
+    
+    padding: 30px;
+    
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    
+    box-shadow: 10px 10px 10px 0px rgba(79, 86, 101, 0.2);
+    
+}
+
+.flex-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+}
+
+
+.grid-item-1 {
+    font-family: 'Rubik';
+    color: #4F5665;
+    
+    border-right: 1px #4F5665 solid;
+}
+
+.grid-item-2 {
+    font-family: 'Rubik';
+    color: #4F5665;
+    
+    border-right: 1px #4F5665 solid;
+}
+
+.grid-item-2:hover {
+    color: #F53838;
+    text-decoration: underline;
+}
+
+.grid-item-3 {
+    font-family: 'Rubik';
+    color: #4F5665;
+}
+
+.flex-img {
+    width: 50px;
+    height: 50px;
+}
+.flex-content {
+    padding-top: 80px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 150px
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content-h2 {
+    font-family: 'Rubik';
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    
+    color: #4F5665;
+}
+
+.content-span {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    
+    color: #4F5665;
+}
+
+.content-span-2 {
+    font-family: 'Rubik';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    
+    color: #4F5665;
+}
+
+.good {
+    width: 20px;
+    height: 20px;
+}
+
+.content-img {
+    width: 500px;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-h3 {
+    font-family: 'Rubik';
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    
+    color: #0B132A;
+}
+
+.center-span {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #4F5665;
+}
+
+.card-container {
+    padding: 50px 100px;
+    
+    display: flex;
+    justify-content: center;
+    gap: 350px;
+}
+
+.card-item {
+    width: 300px;
+    height: 700px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    border: 2px black solid;
+    border-radius: 10px;
+    
+    background: #FFFFFF;
+}
+
+.card-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.card-fotter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-button {
+    padding: 10px 60px;
+    
+    background: none;
+    
+    border-radius: 50px;
+    border: 2px #F53838 solid;
+}
+
+.card-h4 {
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #F53838;
+}
+
+.mini-span {
+    font-family: 'Rubik';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    
+    color: #4F5665;
+}
+
+.card-h5 {
+    font-family: 'Rubik';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #4F5665;
+}
+
+.card-button {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.96px;
+    text-align: left;
+    
+    color: #F53838;
+}
+
+.card-button:hover {
+    padding: 10px 60px;
+    
+    border-radius: 50px;
+    border: none;
+    
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.96px;
+    text-align: left;
+    
+    color: #FFFFFF;
+    background: #F53838;
+    
+    box-shadow: 10px 10px 5px 0px rgba(245, 56, 56, 0.2);
+}
+
+.card-item:hover {
+    width: 300px;
+    height: 700px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    border: 2px #F53838 solid;
+    border-radius: 10px;
+    
+    background: #FFFFFF;
+}
+
+.card-flex-item {
+    width: 120px;
+    height: 90px;
+}
+
+.center-text-2 {
+    padding-top: 50px;
+    
+    text-align: center;
+}
+
+.center-h6 {
+    font-family: 'Rubik';
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    
+    color: #F53838;
+}
+
+.center-h6-span {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #4F5665;
+}
+
+.vpn-mini {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #4F5665;
+}
+
+.center-img-2 {
+    width: 900px;
+    height: 600px;
+}
+
+.world-img {
+    border-right: 2px #F53838 solid;
+    border-left: 2px #F53838 solid;
+    
+   margin: 50px 300px;
+    
+    text-align: center;
+}
+
+.all-logo {
+    padding: 50px; 
+    
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.min-log-red {
+    font-family: 'Rubik';
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    
+    color: #F53838;
+    
+    text-shadow: 1px 1px 0px rgba(79, 86, 101, 1);
+}
+
+.min-log-black {
+    font-family: 'Rubik';
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    
+    color: #4F5665;
+    
+    text-shadow: 1px 1px 0px rgba(245, 56, 56, 1);
+}
+
+.center-text-3 {
+    margin-top: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.center-h7 {
+    font-family: 'Rubik';
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    
+    color: #0B132A;
+}
+
+.center-h7-span {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #4F5665;
+}
+
+.coment {
+    padding-top: 50px;
+    
+    display: flex;
+    justify-content: space-around
+}
+
+.coment-item {
+    padding: 10px;
+    
+    border-radius: 10px;
+    border: 2px #4F5665 solid;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.coment-item:hover {
+    padding: 10px;
+    
+    border-radius: 10px;
+    border: 2px #F53838 solid;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.avatar-flex{
+    display: flex;
+    align-items: center;
+    gap: 15px
+    
+}
+
+.avatar-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    
+    width: 50px;
+    height: 50px;
+}
+
+.avatar-span {
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #F53838;
+}
+
+.avatar-span:hover {
+    color: #4F5665;
+    text-decoration: underline;
+}
+
+.avatar-span-2 {
+    font-family: 'Rubik';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #4F5665;
+}
+
+.all-button {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+    border-radius: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.go-button {
+    margin: 0 8px;
+    
+    display: flex;
+    gap: 10px
+}
+
+.big {
+    width: 45px;
+    height: 15px;
+    
+    border-radius: 100px;
+    border: none;
+    
+    background: #F53838;
+}
+
+.small {
+    width: 15px;
+    height: 15px;
+    
+    border-radius: 100px;
+    border: none;
+    
+    background: #e0e0e0;
+}
+
+
+.back-button {
+    display: flex;
+    gap: 50px;
+}
+
+.go-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 60px;
+    height: 60px;
+    
+    border: 1px #F53838 solid;
+    border-radius: 50%;
+    
+    padding: 60px;
+    
+    background: #FFFFFF;
+}
+
+.go-back:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 60px;
+    height: 60px;
+    
+    border: 1px #F53838 solid;
+    border-radius: 50%;
+    
+    padding: 60px;
+    
+    background: #F53838;
+    color: #FFFFFF;
+}
+
+.first-shadow {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px
+}
+
+.shadow {
+    box-shadow: 10px 10px 10px 0px rgba(79, 86, 101, 0.2);
+    
+    margin: 0 115px;
+    padding: 30px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.red-shadow {
+    width: 250px;
+    height: 60px;
+    
+    background: #F53838;
+    border: none;
+    border-radius: 10px;
+    
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    box-shadow: 10px 10px 5px 0px rgba(245, 56, 56, 0.2);
+}
+
+.red-shadow:hover {
+    width: 250px;
+    height: 60px;
+    
+    background: #FFFFFF;
+    border: 1px #F53838 solid;
+    border-radius: 10px;
+    
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    
+    color: #0B132A;
+    
+    box-shadow: none;
+}
+.title-shadow {
+    font-family: 'Rubik';
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: left;
+    
+    color: #0B132A;
+}
+
+.footer {
+    padding: 50px 150px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px
+}
+
+.dop-inf {
+    display: flex;
+    gap: 40px
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+.ending-p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
+}
+
+.ending {
+    font-family: 'Rubik';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+
+.ending-button {
+    border: none;
+    
+    background: #FFFFFF;
+    
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #4F5665;
+}
+
+.ending-button:hover {
+    border: none;
+    
+    background: #FFFFFF;
+    
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #F53838;
+    text-decoration: underline;
+}
+
+.footer-info {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    
+    color: #4F5665;
+}
+
+.footer-vpn {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    
+    color: #4F5665;
+}
+
+.end-text {
+    font-family: 'Rubik';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #e0e0e0;
+
+}
