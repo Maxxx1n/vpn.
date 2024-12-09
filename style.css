@@ -265,6 +265,9 @@
   line-height: 30px;
   text-align: left;
   color: #4F5665;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 .body .flex-content .content-text .content-span-2 .good {
   width: 20px;
@@ -413,14 +416,14 @@
 .body .world-img {
   border-right: 2px #F53838 solid;
   border-left: 2px #F53838 solid;
-  margin: 50px 300px;
+  margin: 50px 150px;
   text-align: center;
 }
 .body .all-logo {
   padding: 50px;
   display: flex;
   justify-content: center;
-  gap: 100px;
+  gap: 200px;
 }
 .body .all-logo .min-log-red {
   font-family: "Rubik";
@@ -469,9 +472,9 @@
   justify-content: space-evenly;
 }
 .body .coment .coment-item {
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
-  border: 2px #4F5665 solid;
+  border: 1px #4F5665 solid;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -480,7 +483,7 @@
 .body .coment .coment-item .avatar-flex {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 20px;
 }
 .body .coment .coment-item .avatar-flex .avatar {
   border-radius: 50%;
@@ -515,9 +518,9 @@
   color: #4F5665;
 }
 .body .coment .coment-item:hover {
-  padding: 10px;
+  padding: 20px;
   border-radius: 10px;
-  border: 2px #F53838 solid;
+  border: 1px #F53838 solid;
   display: flex;
   flex-direction: column;
   gap: 10px;

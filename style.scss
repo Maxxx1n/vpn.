@@ -306,6 +306,9 @@ $font-family_1: 'Rubik';
                 line-height: 30px;
                 text-align: left;
                 color: $color_2;
+                display: flex;
+                align-items: center;
+                gap: 5px;
 
                 .good {
                     width: 20px;
@@ -477,7 +480,7 @@ $font-family_1: 'Rubik';
     .world-img {
         border-right: 2px #F53838 solid;
         border-left: 2px #F53838 solid;
-        margin: 50px 300px;
+        margin: 50px 150px;
         text-align: center;
     }
 
@@ -485,7 +488,7 @@ $font-family_1: 'Rubik';
         padding: 50px;
         display: flex;
         justify-content: center;
-        gap: 100px;
+        gap: 200px;
 
         .min-log-red {
             font-family: $font-family_1;
@@ -540,9 +543,9 @@ $font-family_1: 'Rubik';
         justify-content: space-evenly;
 
         .coment-item {
-            padding: 10px;
+            padding: 20px;
             border-radius: 10px;
-            border: 2px #4F5665 solid;
+            border: 1px #4F5665 solid;
             display: flex;
             flex-direction: column;
             gap: 10px;
@@ -551,7 +554,7 @@ $font-family_1: 'Rubik';
             .avatar-flex {
                 display: flex;
                 align-items: center;
-                gap: 15px;
+                gap: 20px;
 
                 .avatar {
                     border-radius: 50%;
@@ -591,9 +594,9 @@ $font-family_1: 'Rubik';
 
             }
             &:hover {
-                padding: 10px;
+                padding: 20px;
                 border-radius: 10px;
-                border: 2px #F53838 solid;
+                border: 1px #F53838 solid;
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
